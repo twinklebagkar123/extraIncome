@@ -403,6 +403,8 @@ function twenty_twenty_one_scripts() {
 	} else {
 		// If not IE, use the standard stylesheet.
 		wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+		//bootstrap style
+		//wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 	}
 
 	// RTL styles.
