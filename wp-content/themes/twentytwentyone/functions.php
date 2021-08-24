@@ -404,9 +404,10 @@ function twenty_twenty_one_scripts() {
 		// If not IE, use the standard stylesheet.
 		wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 		//bootstrap style
-		wp_enqueue_style( 'twenty-twenty-one-style','https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ) );
+		
 	}
-
+    //bootstrap style
+	wp_enqueue_style( 'bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ) );
 	// RTL styles.
 	wp_style_add_data( 'twenty-twenty-one-style', 'rtl', 'replace' );
 
