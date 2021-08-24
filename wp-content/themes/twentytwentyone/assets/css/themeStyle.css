@@ -16,17 +16,18 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 .blog-inner .blog-content {
-  padding: 30px;
   margin-top: 0;
   background: linear-gradient(45deg, #FF3D00, #DB3500);
-  max-width: 660px;
+  max-width: 580px;
   padding: 74px 80px;
-  top: 60%;
+  top: 65%;
   left: 10%;
+  color: white;
 }
 .blog-inner .blog-content .post-meta .blog-cat {
   position: relative;
   padding-left: 20px;
   float: left;
   margin-right: 9px;
+  color: white;
 }
