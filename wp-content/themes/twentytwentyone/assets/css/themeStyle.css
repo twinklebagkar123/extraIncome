@@ -62,6 +62,7 @@
   font-weight: 400;
   color: #FFFFFF;
   padding: 0px 0px 0px 12px;
+  text-decoration: none;
 }
 .blog-inner .blog-content .post-title {
   padding: 15px 0px 0px 0px;
@@ -74,4 +75,5 @@
   line-height: 48px;
   letter-spacing: 0.8px;
   color: #FFFFFF;
+  text-decoration: none;
 }
