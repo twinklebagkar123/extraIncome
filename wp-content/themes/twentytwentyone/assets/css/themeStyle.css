@@ -35,7 +35,10 @@
 .blog-inner .s-content .post-meta .blog-cat .category-tag {
   color: #0a0a0a;
 }
-.blog-inner .s-content .post-title {
+.blog-inner .s-content .post-meta .blog-date {
+  color: #0a0a0a;
+}
+.blog-inner .s-content .post-title a {
   color: #0a0a0a;
   font-size: 18px;
 }
