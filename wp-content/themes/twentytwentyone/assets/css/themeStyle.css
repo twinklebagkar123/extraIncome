@@ -25,18 +25,12 @@
 .blog-inner .s-content {
   max-width: 278px;
   background-color: white;
-  padding: 30px;
+  padding: 15px;
   top: 55%;
   max-height: 200px;
 }
-.blog-inner .s-content .category-tag {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 0em;
-  letter-spacing: 0.2px;
+.blog-inner .s-content .post-meta .blog-cat .category-tag {
   color: #0a0a0a;
-  margin: 0px 0px 0px -20px;
-  text-decoration: none;
 }
 .blog-inner .s-content .post-title {
   color: #0a0a0a;
