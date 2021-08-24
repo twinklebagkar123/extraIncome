@@ -21,7 +21,8 @@
   background: linear-gradient(45deg, #FF3D00, #DB3500);
   max-width: 660px;
   padding: 74px 80px;
-  top: 80%;
+  top: 60%;
+  left: 10%;
 }
 .blog-inner .blog-content .post-meta .blog-cat {
   position: relative;
