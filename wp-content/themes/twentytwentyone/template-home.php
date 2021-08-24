@@ -15,7 +15,7 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                    <div class="wrapper">
+                    
                         <div class="blog-inner position-relative">
                             <a href="<?php the_permalink();?>">
                                 <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
@@ -34,7 +34,7 @@ get_header();
                                 
                             </div>
                         </div>
-                    </div>
+                    
 
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
@@ -52,8 +52,8 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-                <div class="blog-inner position-relative">
+                <div class="wrapper">
+                    <div class="blog-inner position-relative">
                         <a href="<?php the_permalink();?>">
                             <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
                         </a>
@@ -71,7 +71,7 @@ get_header();
                             
                         </div>
                     </div>
-
+                </div>
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
 
