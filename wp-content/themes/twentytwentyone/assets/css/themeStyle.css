@@ -12,7 +12,7 @@
   padding-left: 0px;
 }
 .wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 .blog-inner .blog-img {
   border-radius: 5px;
@@ -26,15 +26,23 @@
   max-width: 278px;
   background-color: white;
   padding: 30px;
+  top: 55%;
+}
+.blog-inner .s-content a {
+  color: #0a0a0a;
+}
+.blog-inner .s-content .post-title {
+  color: #0a0a0a;
+  font-size: 18px;
 }
 .blog-inner .width {
   max-width: 580px;
   background: linear-gradient(45deg, #FF3D00, #DB3500);
   padding: 74px 80px;
+  top: 65%;
 }
 .blog-inner .blog-content {
   margin-top: 0;
-  top: 65%;
   left: 10%;
   color: white;
 }
