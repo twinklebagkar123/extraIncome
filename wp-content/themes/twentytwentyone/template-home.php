@@ -15,9 +15,25 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-                    <?php the_title(); ?>
-                    <?php the_excerpt(); ?>
+                    <div class="blog-inner">
+                        <a href="<?php the_permalink();?>">
+                            <img class="img-fluid" src="<? the_post_thumbnail_url(); ?>">
+                        </a>
+                        <div class="blog-content">
+			                <div class="post-meta">
+                                <div class="blog-cat">
+						            <span class="category-color" style="background: #ffffff;"></span>
+						            <a href="" rel="category tag">Life Style</a>					
+                                </div>
+								<div class="blog-date">
+						            <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
+					            </div>
+								<div class="clearfix"></div>
+			                </div>
+                            <h3 class="post-title"><a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h3>
+                            
+                        </div>
+                    </div>
 
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
