@@ -408,6 +408,8 @@ function twenty_twenty_one_scripts() {
 	}
     //bootstrap style
 	wp_enqueue_style( 'bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ) );
+	//themestyle
+	wp_enqueue_style( 'bootstrap',get_template_directory_uri() . '/assets/css/themeStyle.css', array(), wp_get_theme()->get( 'Version' ) );
 	// RTL styles.
 	wp_style_add_data( 'twenty-twenty-one-style', 'rtl', 'replace' );
 
