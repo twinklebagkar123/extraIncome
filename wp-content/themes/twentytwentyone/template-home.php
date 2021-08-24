@@ -27,7 +27,6 @@ get_header();
                 <?php endif; ?>
             </div>
             <div class="col-4"><?php
-                <?php 
                 // the query
                 $the_query = new WP_Query( array(
                     'posts_per_page' => 2,
@@ -46,7 +45,7 @@ get_header();
                 <?php else : ?>
                 <p><?php __('No News'); ?></p>
                 <?php endif; ?>
-            ?></div>
+            </div>
         </div>
         
     </div>
