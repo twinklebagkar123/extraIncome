@@ -25,14 +25,15 @@
 .blog-inner .s-content {
   max-width: 278px;
   background-color: white;
+  padding: 30px;
 }
 .blog-inner .width {
   max-width: 580px;
   background: linear-gradient(45deg, #FF3D00, #DB3500);
+  padding: 74px 80px;
 }
 .blog-inner .blog-content {
   margin-top: 0;
-  padding: 74px 80px;
   top: 65%;
   left: 10%;
   color: white;
