@@ -1,7 +1,7 @@
-header {
+header .site-header {
   background-color: #f7f7f7;
 }
-header a {
+header .site-header a {
   color: #0a0a0a;
   font-size: 16px;
   font-weight: 500;
