@@ -404,7 +404,7 @@ function twenty_twenty_one_scripts() {
 		// If not IE, use the standard stylesheet.
 		wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 		//bootstrap style
-		//wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'twenty-twenty-one-style','https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ) );
 	}
 
 	// RTL styles.
@@ -422,6 +422,14 @@ function twenty_twenty_one_scripts() {
 	wp_register_script(
 		'twenty-twenty-one-ie11-polyfills-asset',
 		get_template_directory_uri() . '/assets/js/polyfills.js',
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		true
+	);
+	// Register the bootstrap js
+	wp_register_script(
+		'twenty-twenty-one-ie11-polyfills-asset',
+		'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js',
 		array(),
 		wp_get_theme()->get( 'Version' ),
 		true
