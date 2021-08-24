@@ -30,7 +30,7 @@ get_header();
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
-                                <h4 class="post-title white"><a class="white" href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h4>
+                                <h4 class="post-title white"><a class="white title" href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h4>
                                 
                             </div>
                         </div>

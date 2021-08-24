@@ -17,6 +17,13 @@
 .wrapper {
   margin-bottom: 150px;
 }
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
 .blog-inner .blog-img {
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -95,11 +102,4 @@
   padding: 15px 0px 0px 0px;
   font-size: 31px;
   margin-bottom: 26px;
-}
-.blog-inner .blog-content .post-title a {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.8px;
-  text-decoration: none;
 }
