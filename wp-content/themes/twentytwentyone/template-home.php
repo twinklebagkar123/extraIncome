@@ -101,6 +101,17 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                <div class="blog-wrapper">
+                    <div class="omega">
+                        <div class="blogImage">
+                            <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
+                        </div>
+                        <div class="blogContent">
+
+                        </div>
+
+                    </div>
+                </div>
                 <div class="wrapper">
                     <div class="blog-inner position-relative">
                         <a href="<?php the_permalink();?>">
