@@ -23,7 +23,7 @@ get_header();
                             <div class="blog-content position-absolute width">
                                 <div class="post-meta">
                                     <div class="blog-cat">
-                                        <a href="" class="category-tag">Life Style new</a>					
+                                        <a href="" class="category-tag white">Life Style new</a>					
                                     </div>
                                     <div class="blog-date">
                                         <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
