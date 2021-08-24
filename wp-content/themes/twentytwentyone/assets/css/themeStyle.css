@@ -31,3 +31,20 @@
   margin-right: 9px;
   color: white;
 }
+.blog-inner .blog-content .post-meta .blog-cat .category-color {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #ffffff;
+}
+.blog-inner .blog-content .post-meta .blog-date {
+  overflow: hidden;
+  clear: right;
+  padding-left: 30px;
+  position: relative;
+  line-height: 28px;
+}
