@@ -108,13 +108,17 @@
 .section2 {
   margin-top: 30px;
 }
-.section2 .section-title span {
+.section2 .section-title {
+  position: relative;
+}
+.section2 .section-title .wn-deep-title-shape {
   width: calc(100% - 200px);
   height: 1px;
   background-color: #ECECEC;
   bottom: 14px;
   left: 200px;
   transform: rotate(0);
+  position: absolute;
 }
 .section2 .section-title .innertitle {
   font-size: 30px;
