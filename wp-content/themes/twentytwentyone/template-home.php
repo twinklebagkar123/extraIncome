@@ -17,7 +17,7 @@ get_header();
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                     <div class="blog-inner">
                         <a href="<?php the_permalink();?>">
-                            <img class="img-fluid" src="<? the_post_thumbnail_url(); ?>">
+                            <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
                         </a>
                         <div class="blog-content">
 			                <div class="post-meta">

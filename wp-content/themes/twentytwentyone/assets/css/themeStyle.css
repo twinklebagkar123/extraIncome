@@ -11,3 +11,7 @@
   padding-right: 0px;
   padding-left: 0px;
 }
+.blog-inner .blog-img {
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
