@@ -105,3 +105,19 @@
   font-size: 31px;
   margin-bottom: 26px;
 }
+.section2 {
+  margin-top: 30px;
+}
+.section2 .section-title span {
+  width: calc(100% - 200px);
+  height: 1px;
+  background-color: #ECECEC;
+  bottom: 14px;
+  left: 200px;
+  transform: rotate(0);
+}
+.section2 .section-title .innertitle {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}

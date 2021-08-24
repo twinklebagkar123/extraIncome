@@ -83,6 +83,20 @@ get_header();
         
     </div>
 </section>
+<section class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="section-title">
+                        <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
+                        <h1 class="innertitle">Latest Posts</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+</section>
 <?php
 get_footer();
 ?>
