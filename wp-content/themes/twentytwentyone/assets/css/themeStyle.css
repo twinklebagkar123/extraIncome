@@ -47,3 +47,11 @@
   position: relative;
   line-height: 28px;
 }
+.blog-inner .blog-content .post-meta .blog-date::before {
+  height: 15px;
+  width: 1px;
+  left: 7px;
+  top: 7px;
+  background: #C5C5C5;
+  opacity: 0.5;
+}
