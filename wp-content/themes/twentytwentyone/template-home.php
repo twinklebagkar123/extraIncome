@@ -15,22 +15,24 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                    <div class="blog-inner position-relative">
-                        <a href="<?php the_permalink();?>">
-                            <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
-                        </a>
-                        <div class="blog-content position-absolute width">
-			                <div class="post-meta">
-                                <div class="blog-cat">
-						            <a href="" class="category-tag">Life Style new</a>					
+                    <div class="wrapper">
+                        <div class="blog-inner position-relative">
+                            <a href="<?php the_permalink();?>">
+                                <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
+                            </a>
+                            <div class="blog-content position-absolute width">
+                                <div class="post-meta">
+                                    <div class="blog-cat">
+                                        <a href="" class="category-tag">Life Style new</a>					
+                                    </div>
+                                    <div class="blog-date">
+                                        <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
+                                    </div>
+                                    <div class="clearfix"></div>
                                 </div>
-								<div class="blog-date">
-						            <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
-					            </div>
-								<div class="clearfix"></div>
-			                </div>
-                            <h3 class="post-title"><a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h3>
-                            
+                                <h4 class="post-title"><a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h4>
+                                
+                            </div>
                         </div>
                     </div>
 
