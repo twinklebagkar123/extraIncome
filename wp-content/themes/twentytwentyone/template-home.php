@@ -19,7 +19,7 @@ get_header();
                         <a href="<?php the_permalink();?>">
                             <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
                         </a>
-                        <div class="blog-content position-absolute">
+                        <div class="blog-content position-absolute width">
 			                <div class="post-meta">
                                 <div class="blog-cat">
 						            <a href="" class="category-tag">Life Style new</a>					
