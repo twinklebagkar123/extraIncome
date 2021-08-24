@@ -38,6 +38,7 @@
   letter-spacing: 0.2px;
   color: #FFFFFF;
   margin: 0px 0px 0px -20px;
+  text-decoration: none;
 }
 .blog-inner .blog-content .post-meta .blog-date {
   overflow: hidden;
