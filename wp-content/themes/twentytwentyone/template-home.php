@@ -15,11 +15,11 @@ get_header();
 
                 <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                    <div class="blog-inner">
+                    <div class="blog-inner position-relative">
                         <a href="<?php the_permalink();?>">
                             <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
                         </a>
-                        <div class="blog-content">
+                        <div class="blog-content position-absolute">
 			                <div class="post-meta">
                                 <div class="blog-cat">
 						            <span class="category-color" style="background: #ffffff;"></span>

@@ -19,4 +19,5 @@
   padding: 30px;
   margin-top: 0;
   background: linear-gradient(45deg, #FF3D00, #DB3500);
+  max-width: 660px;
 }
