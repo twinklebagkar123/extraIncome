@@ -41,6 +41,7 @@
 					<?php dynamic_sidebar( 'widget-areas-57' ); ?>
 					</div>
 				<?php endif; ?>
+				yes
 			</div>
 		</div>
 		<div class="row">
