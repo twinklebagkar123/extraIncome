@@ -30,6 +30,13 @@
   color: #888888;
   text-transform: uppercase;
 }
+.widget-post-css {
+  list-style: none;
+}
+.widget-post-css li a {
+  font-size: 15px;
+  display: inline;
+}
 .white {
   color: white;
 }
