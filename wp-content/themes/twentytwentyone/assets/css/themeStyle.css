@@ -172,7 +172,7 @@
   margin-bottom: 0;
   color: #707070;
 }
-.section2 .blog-wrapper .blogContent .postmetadata .post-title {
+.section2 .blog-wrapper .blogContent .post-title {
   margin: -10px 0px 17px 0px;
   padding: 0px 40px 0px 0px;
   font-size: 22px;
@@ -181,7 +181,7 @@
   font-weight: 500;
   word-wrap: break-word;
 }
-.section2 .blog-wrapper .blogContent .postmetadata .post-title a {
+.section2 .blog-wrapper .blogContent .post-title a {
   font-size: 30px;
   font-weight: 600;
   line-height: 37px;
@@ -189,7 +189,7 @@
   color: #000000;
   text-decoration: none;
 }
-.section2 .blog-wrapper .blogContent .postmetadata p {
+.section2 .blog-wrapper .blogContent p {
   font-size: 17px;
   margin-bottom: 34px;
   color: #555;
