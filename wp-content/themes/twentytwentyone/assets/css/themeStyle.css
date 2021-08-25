@@ -134,12 +134,13 @@
 }
 .section2 .sectionAboutUs .wrapper .image {
   margin: -71px 0px 0px 0px;
+  text-align: center;
 }
 .section2 .sectionAboutUs .wrapper .image img {
   border-radius: 50% 50% 50% 50%;
 }
 .section2 .sectionAboutUs .wrapper .content {
-  margin-top: 40px;
+  margin: 40px 35px 0px 35px;
 }
 .section2 .blog-wrapper {
   margin-bottom: 35px;
