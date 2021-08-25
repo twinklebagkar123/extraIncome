@@ -70,14 +70,17 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.widget-post-css {
+.widget-post-css,
+.wp-block-latest-posts {
   list-style: none;
 }
-.widget-post-css li .wp-block-latest-posts__featured-image a img {
+.widget-post-css li .wp-block-latest-posts__featured-image a img,
+.wp-block-latest-posts li .wp-block-latest-posts__featured-image a img {
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
-.widget-post-css li a {
+.widget-post-css li a,
+.wp-block-latest-posts li a {
   font-size: 15px;
   display: inline;
   color: #888888;
