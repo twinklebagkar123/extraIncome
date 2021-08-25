@@ -147,6 +147,9 @@ get_header();
                         </div>
 
                     </div>
+                    <div class="mt-4 sidebar">
+                    <?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
+                    </div>
                 </div>
 
             </div>
