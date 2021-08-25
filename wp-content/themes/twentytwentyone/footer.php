@@ -36,11 +36,11 @@
 				</div><!-- .site-name -->
 			</div>
 			<div class="col-4">
-			<?php if ( is_active_sidebar( 'widget-areas-57' ) ) : ?>
-				<div id="widget-areas-57" class="widget-areas ">
-				<?php dynamic_sidebar( 'widget-areas-57' ); ?>
-				</div>
-			<?php endif; ?>
+				<?php if ( is_active_sidebar( 'widget-areas-57' ) ) : ?>
+					<div id="widget-areas-57" class="widget-areas area1Class">
+					<?php dynamic_sidebar( 'widget-areas-57' ); ?>
+					</div>
+				<?php endif; ?>
 			</div>
 		</div>
 		<div class="row">
