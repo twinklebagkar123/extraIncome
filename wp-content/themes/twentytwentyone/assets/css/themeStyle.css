@@ -22,6 +22,9 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.footer .footer-navigation li a {
+  color: white;
+}
 .wp-block-categories {
   margin-bottom: 21px;
   margin-left: 3px;
