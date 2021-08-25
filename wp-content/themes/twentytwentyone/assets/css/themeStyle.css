@@ -35,8 +35,6 @@
   list-style: none;
 }
 .widget-post-css li .wp-block-latest-posts__featured-image a img {
-  width: 162px;
-  height: 120px;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
