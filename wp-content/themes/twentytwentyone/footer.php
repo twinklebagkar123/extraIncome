@@ -20,7 +20,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="row">
-            <div class="col-4">
+            <div class="col-3">
 				<div class="site-name">
 					<?php if ( has_custom_logo() ) : ?>
 						<div class="site-logo"><?php the_custom_logo(); ?></div>
@@ -35,12 +35,19 @@
 					<?php endif; ?>
 				</div><!-- .site-name -->
 			</div>
-			<div class="col-4">
+			<div class="col-3">
 				<?php if ( is_active_sidebar( 'widget-areas-57' ) ) : ?>
 					<div id="widget-areas-57" class="widget-areas area1Class">
 					<?php dynamic_sidebar( 'widget-areas-57' ); ?>
 					</div>
 				<?php endif; ?>
+			</div>
+			<div class="col-3">
+			<?php if ( is_active_sidebar( 'widget-areas-58' ) ) : ?>
+				<div id="widget-areas-58" class="widget-areas recentPostArea">
+				<?php dynamic_sidebar( 'widget-areas-58' ); ?>
+				</div>
+			<?php endif; ?>
 			</div>
 		</div>
 		<div class="row">
