@@ -26,9 +26,20 @@
   margin-bottom: 19px;
   border-radius: 8px;
 }
+.wp-block-categories li .wp-block-latest-posts__featured-image a {
+  color: #888888;
+  text-transform: uppercase;
+}
+.wp-block-categories li .wp-block-latest-posts__featured-image a img {
+  width: 162px;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
 .wp-block-categories li a {
   color: #888888;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .wp-block-categories li a img {
   width: 162px;
