@@ -21,6 +21,16 @@
 .footer hr {
   color: white;
 }
+.footer #widget-areas-57 h2 {
+  color: white;
+}
+.footer #widget-areas-57 ul {
+  list-style: none;
+}
+.footer #widget-areas-57 ul li a {
+  color: white;
+  text-decoration: none;
+}
 .footer .footer-navigation {
   margin-top: 0px;
   margin-bottom: 0px;
