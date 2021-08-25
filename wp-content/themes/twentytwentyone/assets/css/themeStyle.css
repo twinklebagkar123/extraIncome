@@ -130,6 +130,7 @@
 }
 .section2 .sectionAboutUs .wrapper {
   padding: 10px;
+  margin-bottom: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
 }
 .section2 .sectionAboutUs .wrapper .image {
@@ -146,6 +147,15 @@
 .section2 .sectionAboutUs .wrapper .content p {
   font-size: 17px;
   color: #555;
+}
+.section2 .sectionAboutUs .wrapper .content a {
+  color: #FF3D00;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
 }
 .section2 .blog-wrapper {
   margin-bottom: 35px;

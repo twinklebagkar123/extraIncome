@@ -142,6 +142,7 @@ get_header();
                                     Over the last 10-15 years have noticed my teeth beginning to move and shift.
                                      I had braces (twice) growing stopped also something using…
                                     </p>
+                                    <a href="#">READ MORE</a>
                             </div>
                         </div>
 
