@@ -11,8 +11,44 @@
   padding-right: 0px;
   padding-left: 0px;
 }
+.wp-block-categories {
+  margin-bottom: 21px;
+  margin-left: 3px;
+  list-style: none;
+}
+.wp-block-categories li {
+  list-style: none;
+  padding: 13px 23px;
+  padding-right: 34px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.11);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 19px;
+  border-radius: 8px;
+}
+.wp-block-categories li a {
+  color: #888888;
+  text-transform: uppercase;
+}
 .white {
   color: white;
+}
+.section-title {
+  position: relative;
+}
+.section-title .wn-deep-title-shape {
+  width: calc(100% - 200px);
+  height: 1px;
+  background-color: #ECECEC;
+  bottom: 14px;
+  left: 200px;
+  transform: rotate(0);
+  position: absolute;
+}
+.section-title .innertitle {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
 }
 .wrapper {
   margin-bottom: 100px;
