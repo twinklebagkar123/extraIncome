@@ -36,6 +36,8 @@
   text-transform: capitalize;
   font-weight: 500;
   padding: 3px 8.6px 8px;
+  font-size: 14px;
+  text-decoration: none;
 }
 .footer .area1Class {
   margin-bottom: 100px;
