@@ -126,6 +126,27 @@ get_header();
                 <?php endif; ?>
                     </div>
                 </div>
+                <div class="col-4">
+                    <div class="section-title">
+                        <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
+                        <h1 class="innertitle">About us</h1>
+                    </div>
+                    <div class="sectionAboutUs">
+                        <div class="wrapper">
+                            <div class="image">
+                                <img src="https://weblozee.com/extraIncome/wp-content/uploads/2021/08/el-deep-img-about-p3mc3kze3q0dtd2qi0ge0bsqfxlxxqvryhhdeuja7g.png" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                
+                                    <p>
+                                    Over the last 10-15 years have noticed my teeth beginning to move and shift.
+                                     I had braces (twice) growing stopped also something using…
+                                    </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
 
