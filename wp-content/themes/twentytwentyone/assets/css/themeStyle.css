@@ -125,6 +125,22 @@
   font-weight: 700;
   letter-spacing: 0.6px;
 }
+.section2 .sectionAboutUs {
+  margin-top: 80px;
+}
+.section2 .sectionAboutUs .wrapper {
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
+.section2 .sectionAboutUs .wrapper .image {
+  margin: -71px 0px 0px 0px;
+}
+.section2 .sectionAboutUs .wrapper .image img {
+  border-radius: 50% 50% 50% 50%;
+}
+.section2 .sectionAboutUs .wrapper .content {
+  margin-top: 40px;
+}
 .section2 .blog-wrapper {
   margin-bottom: 35px;
   position: relative;
