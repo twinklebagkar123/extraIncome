@@ -21,11 +21,19 @@
 .footer hr {
   color: white;
 }
+.footer .area1Class {
+  margin-bottom: 100px;
+}
 .footer .area1Class h2 {
   color: white;
+  margin-bottom: 20px;
 }
 .footer .area1Class ul {
   list-style: none;
+  padding: 0px;
+}
+.footer .area1Class ul li {
+  line-height: 3;
 }
 .footer .area1Class ul li a {
   color: white;
