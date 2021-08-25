@@ -134,3 +134,21 @@
   background-color: #fff;
   position: relative;
 }
+.section2 .blog-wrapper .omega img {
+  width: 384px;
+  height: 281px;
+  margin-top: 25px;
+}
+.section2 .blog-wrapper .blogImage {
+  margin-left: -25%;
+  z-index: 2;
+  padding-top: 41px;
+  float: left;
+}
+.section2 .blog-wrapper .blogImage img {
+  width: 384px;
+  height: 281px;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
