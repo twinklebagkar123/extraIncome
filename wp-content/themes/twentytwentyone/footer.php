@@ -37,11 +37,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12">
-								
-				<div class="site-info">
-				</div><!-- .site-info -->
-			</div>
+			<hr>
             <div class="col-6">
 				<div class="powered-by">
 					<a href="#">
