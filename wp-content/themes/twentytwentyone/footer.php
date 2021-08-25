@@ -37,6 +37,11 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-12">
+								
+				<div class="site-info">
+				</div><!-- .site-info -->
+			</div>
             <div class="col-6">
 				<div class="powered-by">
 					<a href="#">
@@ -69,11 +74,6 @@
 	</div>
 
 
-<div class="site-info">
-	
-	
-
-</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </section>
 
