@@ -18,6 +18,9 @@
 .footer {
   background-color: #000000;
 }
+.footer hr {
+  color: white;
+}
 .footer .footer-navigation {
   margin-top: 0px;
   margin-bottom: 0px;
