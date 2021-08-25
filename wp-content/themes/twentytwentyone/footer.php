@@ -39,13 +39,9 @@
 		<div class="row">
             <div class="col-6">
 				<div class="powered-by">
-					<?php
-					printf(
-						/* translators: %s: WordPress. */
-						esc_html__( '' ),
-						'<a href="' . esc_url( __( 'https://weblozee.com/', 'twentytwentyone' ) ) . '">WEBLOZEE</a> Creation'
-					);
-					?>
+					<a href="#">
+								WEBLOZEE Creations
+					</a>
 				</div><!-- .powered-by -->
 			</div>
 			<div class="col-6">
