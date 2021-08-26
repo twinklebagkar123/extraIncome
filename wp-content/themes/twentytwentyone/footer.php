@@ -61,9 +61,7 @@
 			<hr>
             <div class="col-6">
 				<div class="powered-by">
-					<a href="#">
-								WEBLOZEE Creations
-					</a>
+				<a href="https://weblozee.com/" target="_blank" rel="noopener">WEBLOZEE</a> <em>Creations </em>
 				</div><!-- .powered-by -->
 			</div>
 			<div class="col-6">
