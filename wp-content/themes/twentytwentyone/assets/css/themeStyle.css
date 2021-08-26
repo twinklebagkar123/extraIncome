@@ -533,8 +533,14 @@ body {
 .sectionSingle .post-taxonomies .edit-link {
   display: none;
 }
+.nav-links .nav-previous {
+  color: #707070;
+}
+.nav-links .nav-previous a {
+  color: #707070;
+}
 .nav-links .nav-previous a .meta-nav svg {
-  fill: #458f2d;
+  fill: #458f2d !important;
 }
 .nav-links .nav-previous a .post-title {
   font-size: 15px;
