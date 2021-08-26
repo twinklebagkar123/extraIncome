@@ -6,6 +6,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
+            <div class="mainPost">
             <?php 
                 // the query
                 $the_query = new WP_Query( array(
@@ -43,6 +44,7 @@ get_header();
                 <?php else : ?>
                 <p><?php __('No News'); ?></p>
                 <?php endif; ?>
+            </div>
                 <div class="latestPost">
                     <div class="section-title">
                         <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
