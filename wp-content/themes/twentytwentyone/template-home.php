@@ -113,7 +113,7 @@ get_header();
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <div class="blog-wrapper">
                             <div class="omega">
-                                <?php if(!empty(the_post_thumbnail_url())){?>
+                                <?php if(is_attachment()){?>
                                     <div class="blogImage">
                                         <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
                                     </div>
