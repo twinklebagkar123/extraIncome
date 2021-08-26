@@ -134,6 +134,11 @@
   letter-spacing: 0.8px;
   text-decoration: none;
 }
+@media screen (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+}
 .blog-inner .blog-img {
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
