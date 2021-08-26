@@ -482,3 +482,15 @@ body {
   line-height: 1.3;
   letter-spacing: -1px;
 }
+.sectionSingle .posted-by .posted-on {
+  display: table-cell;
+  letter-spacing: 0;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-right: 4px;
+  margin-bottom: 0;
+  border-right: 1px solid #ddd;
+  color: #707070;
+}
