@@ -533,9 +533,9 @@ body {
 .sectionSingle .post-taxonomies .edit-link {
   display: none;
 }
-.nav-links .nav-previous .meta-nav svg {
+.nav-links .nav-previous a .meta-nav svg {
   fill: #458f2d;
 }
-.nav-links .nav-previous .post-title {
+.nav-links .nav-previous a .post-title {
   font-size: 15px;
 }
