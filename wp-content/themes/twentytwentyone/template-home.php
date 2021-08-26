@@ -113,9 +113,12 @@ get_header();
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <div class="blog-wrapper">
                             <div class="omega">
-                                <div class="blogImage">
-                                    <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
-                                </div>
+                                <?php if(the_post_thumbnail_url()){?>
+                                    <div class="blogImage">
+                                        <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
+                                    </div>
+                                <?php }?>
+                                
                                 <div class="blogContent">
                                     <div class="postmetadata">
                                         <h6 class="blog-date">
