@@ -437,6 +437,14 @@ body {
   margin-bottom: 34px;
   color: #555;
 }
+.contactFormClass h2,
+.comment-respond h2 {
+  font-size: 20px;
+}
+.contactFormClass label,
+.comment-respond label {
+  color: #458f2d;
+}
 .contactFormClass input:not([type=submit]),
 .comment-respond input:not([type=submit]),
 .contactFormClass textarea,
@@ -524,4 +532,10 @@ body {
 .sectionSingle .posted-by .edit-link,
 .sectionSingle .post-taxonomies .edit-link {
   display: none;
+}
+.nav-links .nav-previous .meta-nav svg {
+  fill: #458f2d;
+}
+.nav-links .nav-previous .post-title {
+  font-size: 15px;
 }
