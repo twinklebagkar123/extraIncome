@@ -493,20 +493,11 @@ body {
   border: none;
 }
 .sectionSingle .posted-by .posted-on,
-.sectionSingle .post-taxonomies .posted-on {
-  display: table-cell;
-  letter-spacing: 0;
-  font-size: 11px;
-  line-height: 20px;
-  font-weight: 400;
-  text-align: center;
-  padding-right: 4px;
-  margin-bottom: 0;
-  border-right: 1px solid #ddd;
-  color: #707070;
-}
+.sectionSingle .post-taxonomies .posted-on,
 .sectionSingle .posted-by .byline,
-.sectionSingle .post-taxonomies .byline {
+.sectionSingle .post-taxonomies .byline,
+.sectionSingle .posted-by span,
+.sectionSingle .post-taxonomies span {
   display: table-cell;
   letter-spacing: 0;
   font-size: 11px;
