@@ -1,7 +1,6 @@
 <?php
-/* template name : Blog Page*/
-?>
-<?php get_header(); ?>
+/* template name: Blog Template */
+get_header();?>
 <section class="section2">
         <div class="container">
             <div class="row">
