@@ -74,6 +74,10 @@ body {
 .footer .footer-navigation li a {
   color: white;
 }
+.footer .footer-navigation li a .svg-icon {
+  vertical-align: middle;
+  fill: white !important;
+}
 .wp-block-categories {
   margin-bottom: 21px;
   margin-left: 3px;
