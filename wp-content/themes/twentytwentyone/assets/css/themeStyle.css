@@ -540,6 +540,7 @@ body {
 .nav-links .nav-previous a,
 .nav-links .nav-next a {
   color: #707070;
+  text-decoration: none;
 }
 .nav-links .nav-previous a .meta-nav svg,
 .nav-links .nav-next a .meta-nav svg {
@@ -548,4 +549,8 @@ body {
 .nav-links .nav-previous a .post-title,
 .nav-links .nav-next a .post-title {
   font-size: 15px;
+}
+.nav-links .nav-previous a:hover,
+.nav-links .nav-next a:hover {
+  color: #458f2d;
 }
