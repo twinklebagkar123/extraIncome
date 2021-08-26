@@ -433,7 +433,8 @@ body {
   margin-bottom: 34px;
   color: #555;
 }
-.contactFormClass input:not([type=submit]) {
+.contactFormClass input:not([type=submit]),
+.contactFormClass textarea {
   font-size: 14px;
   font-weight: 300;
   border: 1px solid white;
