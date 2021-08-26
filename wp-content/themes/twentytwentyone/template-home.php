@@ -26,11 +26,11 @@ get_header();
                                         <a href="" class="category-tag white">Life Style new</a>					
                                     </div>
                                     <div class="blog-date white">
-                                        <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
+                                        <a href="">1 March 2021</a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
-                                <h4 class="post-title white"><a class="white title" href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h4>
+                                <h4 class="post-title white"><a class="white title" href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
                                 
                             </div>
                         </div>
@@ -63,11 +63,11 @@ get_header();
 						            <a href="" class="category-tag">Life Style new</a>					
                                 </div>
 								<div class="blog-date">
-						            <a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/">1 March 2021</a>
+						            <a href="">1 March 2021</a>
 					            </div>
 								<div class="clearfix"></div>
 			                </div>
-                            <h3 class="post-title"><a href="https://deeptem.com/blog/2021/03/01/start-new-season-with-latest-zaras-collection/"><?php the_title();?></a></h3>
+                            <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
                             
                         </div>
                     </div>
