@@ -28,10 +28,18 @@
 				</div>
 				<div class="thumbnail">
 					<?php twenty_twenty_one_post_thumbnail(); ?>
+					<footer class="entry-footer default-max-width">
+						<?php twenty_twenty_one_entry_meta_footer(); ?>
+					</footer><!-- .entry-footer -->
 				</div>
 				<div class="content">
 					<?php the_content(); ?>
-					<?php
+					
+				</div>
+			</div>
+			<div class="col-sm-4">
+			
+			<?php
 						wp_link_pages(
 							array(
 								'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
@@ -41,12 +49,6 @@
 							)
 						);
 					?>
-				</div>
-			</div>
-			<div class="col-sm-4">
-			<footer class="entry-footer default-max-width">
-				<?php twenty_twenty_one_entry_meta_footer(); ?>
-			</footer><!-- .entry-footer -->
 			</div>
 		</div>
 	</div>
