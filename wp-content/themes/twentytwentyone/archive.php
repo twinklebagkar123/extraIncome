@@ -23,9 +23,33 @@ $description = get_the_archive_description();
 		<?php endif; ?>
 	</header><!-- .page-header -->
 
+	
+
+	
+
 	<?php while ( have_posts() ) : ?>
-		<?php the_post(); ?>
-		<?php get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) ); ?>
+		<div class="blog-wrapper">
+			<div class="omega">
+				
+					<div class="blogImage">
+						<img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
+					</div>
+				
+				
+				<div class="blogContent">
+					<div class="postmetadata">
+						<h6 class="blog-date">
+							<i class="pe-7s-clock"></i><?php the_date();?>
+						</h6>
+					</div>
+					<h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3> 
+					<p>When a blog crosses over into personal stories and emotions, it’s now entered into the realm of...</p>  
+				</div>
+
+			</div>
+		</div>
+		<?php //the_post(); ?>
+		<?php //get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) ); ?>
 	<?php endwhile; ?>
 
 	<?php twenty_twenty_one_the_posts_navigation(); ?>
