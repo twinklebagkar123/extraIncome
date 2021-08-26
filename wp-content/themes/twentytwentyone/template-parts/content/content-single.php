@@ -28,9 +28,7 @@
 				</div>
 				<div class="thumbnail">
 					<?php twenty_twenty_one_post_thumbnail(); ?>
-					<footer class="entry-footer default-max-width">
-						<?php twenty_twenty_one_entry_meta_footer(); ?>
-					</footer><!-- .entry-footer -->
+					<?php twenty_twenty_one_entry_meta_footer(); ?>
 				</div>
 				<div class="content">
 					<?php the_content(); ?>
@@ -64,8 +62,8 @@
 
 	
 
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author-bio' ); ?>
-	<?php endif; ?>
+	<?php //if ( ! is_singular( 'attachment' ) ) : ?>
+		<?php //get_template_part( 'template-parts/post/author-bio' ); ?>
+	<?php //endif; ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->
