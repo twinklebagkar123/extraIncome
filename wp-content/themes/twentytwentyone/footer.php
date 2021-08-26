@@ -20,7 +20,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="row">
-            <div class="col-3">
+            <div class="col-sm-3">
 				<div class="site-name">
 					<?php if ( has_custom_logo() ) : ?>
 						<div class="site-logo"><?php the_custom_logo(); ?></div>
@@ -49,7 +49,7 @@
 				</div>
 			<?php endif; ?>
 			</div>
-			<div class="col-3">
+			<div class="col-sm-3">
 			<?php if ( is_active_sidebar( 'widget-areas-58' ) ) : ?>
 				<div id="widget-areas-58" class="widget-areas recentPostArea">
 				<?php dynamic_sidebar( 'widget-areas-58' ); ?>
