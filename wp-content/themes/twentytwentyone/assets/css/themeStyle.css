@@ -22,6 +22,10 @@ body {
   padding-left: 0px;
   text-decoration: none !important;
 }
+.footer-navigation-wrapper li .svg-icon {
+  vertical-align: middle;
+  fill: white !important;
+}
 .footer {
   background-color: #000000;
   padding-top: 60px;
