@@ -8,6 +8,9 @@ body {
   background-color: #f7f7f7;
   padding: 10px;
 }
+.site-header .current-menu-item a {
+  border-bottom: 1px solid #458f2d;
+}
 .site-header a {
   color: #0a0a0a;
   font-size: 16px;
@@ -17,6 +20,7 @@ body {
   margin-left: 25px;
   padding-right: 0px;
   padding-left: 0px;
+  text-decoration: none;
 }
 .footer {
   background-color: #000000;
@@ -177,7 +181,7 @@ body {
 }
 .blog-inner .width {
   max-width: 580px;
-  background: linear-gradient(45deg, #4d8536, #91b44d);
+  background: linear-gradient(45deg, #458f2d, #91b44d);
   padding: 74px 80px;
   top: 65%;
 }

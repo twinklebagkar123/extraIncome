@@ -7,6 +7,11 @@ body{
 .site-header{
     background-color: #f7f7f7;
     padding: 10px;
+    .current-menu-item{
+        a{
+            border-bottom: 1px solid #458f2d;
+        }
+    }
     a{
         color: #0a0a0a;
         font-size: 16px;
@@ -16,6 +21,7 @@ body{
         margin-left: 25px;
         padding-right: 0px;
         padding-left: 0px;
+        text-decoration: none;
         & :hover{
 
         }
@@ -205,7 +211,7 @@ body{
     }
     .width{
         max-width: 580px;
-        background: linear-gradient(45deg, #4d8536, #91b44d);
+        background: linear-gradient(45deg, #458f2d, #91b44d);
         padding: 74px 80px;
         top: 65%;
         @media screen and (max-width: 768px) {
