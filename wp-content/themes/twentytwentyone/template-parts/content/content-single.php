@@ -37,7 +37,7 @@
 					
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 navigation">
 			
 			<?php
 						wp_link_pages(
