@@ -482,7 +482,8 @@ body {
   line-height: 1.3;
   letter-spacing: -1px;
 }
-.sectionSingle .posted-by {
+.sectionSingle .posted-by,
+.sectionSingle .post-taxonomies {
   margin: 20px auto;
   position: relative;
   display: table;
@@ -491,7 +492,8 @@ body {
   padding: 11px;
   border: none;
 }
-.sectionSingle .posted-by .posted-on {
+.sectionSingle .posted-by .posted-on,
+.sectionSingle .post-taxonomies .posted-on {
   display: table-cell;
   letter-spacing: 0;
   font-size: 11px;
@@ -503,7 +505,8 @@ body {
   border-right: 1px solid #ddd;
   color: #707070;
 }
-.sectionSingle .posted-by .byline {
+.sectionSingle .posted-by .byline,
+.sectionSingle .post-taxonomies .byline {
   display: table-cell;
   letter-spacing: 0;
   font-size: 11px;
@@ -515,6 +518,7 @@ body {
   border-right: 1px solid #ddd;
   color: #707070;
 }
-.sectionSingle .posted-by .edit-link {
+.sectionSingle .posted-by .edit-link,
+.sectionSingle .post-taxonomies .edit-link {
   display: none;
 }
