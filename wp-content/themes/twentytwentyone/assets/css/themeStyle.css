@@ -462,6 +462,7 @@ body {
   border: 0;
 }
 .powered-by a {
+  font-size: 14px;
   color: white;
   text-decoration: none;
 }

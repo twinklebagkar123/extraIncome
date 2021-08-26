@@ -59,12 +59,12 @@
 		</div>
 		<div class="row">
 			<hr>
-            <div class="col-6">
+            <div class="col- sm-6">
 				<div class="powered-by">
 				<a href="https://weblozee.com/" target="_blank" rel="noopener">WEBLOZEE</a> <em>Creations </em>
 				</div><!-- .powered-by -->
 			</div>
-			<div class="col-6">
+			<div class="col-sm-6">
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
 				<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
 					<ul class="footer-navigation-wrapper">
