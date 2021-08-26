@@ -5,7 +5,7 @@ get_header();
 <section class="home-banner">
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-sm-8">
             <?php 
                 // the query
                 $the_query = new WP_Query( array(
@@ -17,6 +17,7 @@ get_header();
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                     
                         <div class="blog-inner position-relative">
+                            
                             <a href="<?php the_permalink();?>">
                                 <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
                             </a>
@@ -42,8 +43,48 @@ get_header();
                 <?php else : ?>
                 <p><?php __('No News'); ?></p>
                 <?php endif; ?>
+                <div class="latestPost">
+                    <div class="section-title">
+                        <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
+                        <h1 class="innertitle">Latest Posts</h1>
+                    </div>
+                    <div class="section-blogs">
+                            <?php
+                        // the query
+                        $the_query = new WP_Query( array(
+                            'posts_per_page' => 6,
+                        )); 
+                        ?>
+
+                        <?php if ( $the_query->have_posts() ) : ?>
+                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                        <div class="blog-wrapper">
+                            <div class="omega">
+                                <div class="blogImage">
+                                    <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
+                                </div>
+                                <div class="blogContent">
+                                    <div class="postmetadata">
+                                        <h6 class="blog-date">
+                                            <i class="pe-7s-clock"></i><?php the_date();?>
+                                        </h6>
+                                    </div>
+                                    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3> 
+                                    <p>When a blog crosses over into personal stories and emotions, it’s now entered into the realm of...</p>  
+                                </div>
+
+                            </div>
+                        </div>
+                        <?php endwhile; ?>
+                        <?php wp_reset_postdata(); ?>
+
+                        <?php else : ?>
+                        <p><?php __('No News'); ?></p>
+                        <?php endif; ?>
+                    </div>
+                </div>
             </div>
-            <div class="col-4"><?php
+            <div class="col-sm-4 "><?php
                 // the query
                 $the_query = new WP_Query( array(
                     'posts_per_page' => 2,

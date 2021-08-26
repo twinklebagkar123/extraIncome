@@ -215,13 +215,16 @@
   font-size: 31px;
   margin-bottom: 26px;
 }
-.section2 {
+.section2,
+.latestPost {
   margin-top: 30px;
 }
-.section2 .section-title {
+.section2 .section-title,
+.latestPost .section-title {
   position: relative;
 }
-.section2 .section-title .wn-deep-title-shape {
+.section2 .section-title .wn-deep-title-shape,
+.latestPost .section-title .wn-deep-title-shape {
   width: calc(100% - 200px);
   height: 1px;
   background-color: #ECECEC;
@@ -230,35 +233,43 @@
   transform: rotate(0);
   position: absolute;
 }
-.section2 .section-title .innertitle {
+.section2 .section-title .innertitle,
+.latestPost .section-title .innertitle {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.6px;
 }
-.section2 .sectionAboutUs {
+.section2 .sectionAboutUs,
+.latestPost .sectionAboutUs {
   margin-top: 80px;
 }
-.section2 .sectionAboutUs .wrapper {
+.section2 .sectionAboutUs .wrapper,
+.latestPost .sectionAboutUs .wrapper {
   padding: 10px;
   padding-bottom: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
 }
-.section2 .sectionAboutUs .wrapper .image {
+.section2 .sectionAboutUs .wrapper .image,
+.latestPost .sectionAboutUs .wrapper .image {
   margin: -71px 0px 0px 0px;
   text-align: center;
 }
-.section2 .sectionAboutUs .wrapper .image img {
+.section2 .sectionAboutUs .wrapper .image img,
+.latestPost .sectionAboutUs .wrapper .image img {
   border-radius: 50% 50% 50% 50%;
 }
-.section2 .sectionAboutUs .wrapper .content {
+.section2 .sectionAboutUs .wrapper .content,
+.latestPost .sectionAboutUs .wrapper .content {
   margin: 40px 35px 0px 35px;
   text-align: center;
 }
-.section2 .sectionAboutUs .wrapper .content p {
+.section2 .sectionAboutUs .wrapper .content p,
+.latestPost .sectionAboutUs .wrapper .content p {
   font-size: 17px;
   color: #555;
 }
-.section2 .sectionAboutUs .wrapper .content a {
+.section2 .sectionAboutUs .wrapper .content a,
+.latestPost .sectionAboutUs .wrapper .content a {
   color: #FF3D00;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -267,11 +278,13 @@
   font-weight: 700;
   letter-spacing: 0.8px;
 }
-.section2 .blog-wrapper {
+.section2 .blog-wrapper,
+.latestPost .blog-wrapper {
   margin-bottom: 35px;
   position: relative;
 }
-.section2 .blog-wrapper .omega {
+.section2 .blog-wrapper .omega,
+.latestPost .blog-wrapper .omega {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
   margin-left: 20%;
@@ -280,34 +293,40 @@
   background-color: #fff;
   position: relative;
 }
-.section2 .blog-wrapper .omega img {
+.section2 .blog-wrapper .omega img,
+.latestPost .blog-wrapper .omega img {
   width: 384px;
   height: 281px;
   margin-top: 25px;
 }
-.section2 .blog-wrapper .blogImage {
+.section2 .blog-wrapper .blogImage,
+.latestPost .blog-wrapper .blogImage {
   margin-left: -25%;
   z-index: 2;
   padding-top: 41px;
   float: left;
 }
-.section2 .blog-wrapper .blogImage img {
+.section2 .blog-wrapper .blogImage img,
+.latestPost .blog-wrapper .blogImage img {
   width: 384px;
   height: 281px;
   margin-top: 25px;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
-.section2 .blog-wrapper .blogContent {
+.section2 .blog-wrapper .blogContent,
+.latestPost .blog-wrapper .blogContent {
   padding: 10% 5% 13% 6%;
   min-height: 369px;
   overflow: hidden;
 }
-.section2 .blog-wrapper .blogContent .postmetadata {
+.section2 .blog-wrapper .blogContent .postmetadata,
+.latestPost .blog-wrapper .blogContent .postmetadata {
   display: inline-block;
   padding-right: 7px;
 }
-.section2 .blog-wrapper .blogContent .postmetadata .blog-date {
+.section2 .blog-wrapper .blogContent .postmetadata .blog-date,
+.latestPost .blog-wrapper .blogContent .postmetadata .blog-date {
   text-align: left;
   display: table-cell;
   letter-spacing: 0;
@@ -318,7 +337,8 @@
   margin-bottom: 0;
   color: #707070;
 }
-.section2 .blog-wrapper .blogContent .post-title {
+.section2 .blog-wrapper .blogContent .post-title,
+.latestPost .blog-wrapper .blogContent .post-title {
   margin: -10px 0px 17px 0px;
   padding: 0px 40px 0px 0px;
   font-size: 22px;
@@ -327,7 +347,8 @@
   font-weight: 500;
   word-wrap: break-word;
 }
-.section2 .blog-wrapper .blogContent .post-title a {
+.section2 .blog-wrapper .blogContent .post-title a,
+.latestPost .blog-wrapper .blogContent .post-title a {
   font-size: 30px;
   font-weight: 600;
   line-height: 37px;
@@ -335,7 +356,8 @@
   color: #000000;
   text-decoration: none;
 }
-.section2 .blog-wrapper .blogContent p {
+.section2 .blog-wrapper .blogContent p,
+.latestPost .blog-wrapper .blogContent p {
   font-size: 17px;
   margin-bottom: 34px;
   color: #555;
