@@ -21,6 +21,10 @@ body {
   padding-left: 0px;
   text-decoration: none !important;
 }
+.site-header a:focus {
+  color: #458f2d;
+  background-color: none;
+}
 .footer-navigation-wrapper li .svg-icon {
   vertical-align: middle;
   fill: white !important;
@@ -552,6 +556,11 @@ body {
 }
 .nav-links .nav-previous a:hover,
 .nav-links .nav-next a:hover {
+  color: #458f2d;
+  background-color: none;
+}
+.nav-links .nav-previous a:focus,
+.nav-links .nav-next a:focus {
   color: #458f2d;
   background-color: none;
 }
