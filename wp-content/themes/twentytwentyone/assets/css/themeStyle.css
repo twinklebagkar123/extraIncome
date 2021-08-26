@@ -553,4 +553,5 @@ body {
 .nav-links .nav-previous a:hover,
 .nav-links .nav-next a:hover {
   color: #458f2d;
+  background-color: none;
 }
