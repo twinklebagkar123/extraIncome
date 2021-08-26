@@ -6,7 +6,7 @@ body{
 }
 .site-header{
     background-color: #f7f7f7;
-    padding: 10px;
+    //padding: 10px;
     .current-menu-item{
         a{
             border-bottom: 1px solid #458f2d;
@@ -282,6 +282,9 @@ body{
 }
 .mainPost{
     margin-bottom: 280px;
+    @media screen and (max-width: 768px) {
+        margin-top: 70px;
+    }
 }
 .section2,.latestPost,.aboutside{
     margin-top: 30px;
@@ -439,5 +442,14 @@ body{
         padding: 0px 0px 0px 0px;
         margin: 24px 0px 0px 0px;
         border: 0;
+    }
+}
+.powered-by{
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    em{
+        color : white;
     }
 }
