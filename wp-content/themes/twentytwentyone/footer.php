@@ -49,7 +49,7 @@
 				</div>
 			<?php endif; ?>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 col-xs-hidden">
 			<?php if ( is_active_sidebar( 'widget-areas-58' ) ) : ?>
 				<div id="widget-areas-58" class="widget-areas recentPostArea">
 				<?php dynamic_sidebar( 'widget-areas-58' ); ?>
