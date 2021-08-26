@@ -494,3 +494,15 @@ body {
   border-right: 1px solid #ddd;
   color: #707070;
 }
+.sectionSingle .posted-by .byline {
+  display: table-cell;
+  letter-spacing: 0;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-right: 4px;
+  margin-bottom: 0;
+  border-right: 1px solid #ddd;
+  color: #707070;
+}
