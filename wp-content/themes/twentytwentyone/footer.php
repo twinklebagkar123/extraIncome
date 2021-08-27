@@ -59,7 +59,7 @@
 		</div>
 		<div class="row">
 			<hr>
-            <div class="col- sm-6">
+            <div class="col-sm-6">
 				<div class="powered-by">
 				<a href="https://weblozee.com/" target="_blank" rel="noopener">WEBLOZEE</a> <em>Creations </em>
 				</div><!-- .powered-by -->
