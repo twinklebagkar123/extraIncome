@@ -214,6 +214,20 @@ body {
   margin-right: 9px;
   color: white;
 }
+.blog-inner .blog-content .post-meta .blog-cat ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blog-inner .blog-content .post-meta .blog-cat ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 0em;
+  letter-spacing: 0.2px;
+  color: white;
+  margin: 0px 0px 0px -20px;
+  text-decoration: none;
+}
 .blog-inner .blog-content .post-meta .blog-cat .category-tag {
   font-size: 13px;
   font-weight: 400;
