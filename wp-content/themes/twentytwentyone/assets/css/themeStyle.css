@@ -179,10 +179,21 @@ body {
   max-height: 200px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
-.blog-inner .s-content .post-meta .blog-cat .category-tag {
-  color: #0a0a0a;
+.blog-inner .s-content .post-meta .blog-cat ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.blog-inner .s-content .post-meta .blog-date {
+.blog-inner .s-content .post-meta .blog-cat ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 0em;
+  letter-spacing: 0.2px;
+  color: black;
+  margin: 0px 0px 0px -20px;
+  text-decoration: none;
+}
+.blog-inner .s-content .post-meta .blog-date a {
   color: #0a0a0a;
 }
 .blog-inner .s-content .post-title a {

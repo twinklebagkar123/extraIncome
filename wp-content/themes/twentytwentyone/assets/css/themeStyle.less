@@ -201,12 +201,28 @@ body{
         box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
         .post-meta{
             .blog-cat{
-                .category-tag{
-                    color:#0a0a0a;
+                ul{
+                    list-style:none;
+                    padding:0;
+                    margin:0;
+                    li{
+                        a{
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 0em;
+                            letter-spacing: 0.2px;
+                            color: black;
+                            margin: 0px 0px 0px -20px;
+                            text-decoration: none;
+                        }
+                    }
                 }
             }
             .blog-date{
-                color:#0a0a0a;
+                a{
+                    color:#0a0a0a;
+                }
+                
             }
         }
         .post-title{

@@ -70,7 +70,7 @@ get_header();
                             <div class="blog-content position-absolute s-content">
                                 <div class="post-meta">
                                     <div class="blog-cat">
-                                        <a href="" class="category-tag">Life Style new</a>					
+                                    <?php the_category(); ?>					
                                     </div>
                                     <div class="blog-date">
                                         <a href="">1 March 2021</a>
