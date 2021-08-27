@@ -36,6 +36,7 @@
 				</div><!-- .site-name -->
 			</div>
 			<div class="col-sm-3">
+				hi
 				<?php if ( is_active_sidebar( 'widget-areas-57' ) ) : ?>
 					<div id="widget-areas-57" class="widget-areas area1Class">
 					<?php dynamic_sidebar( 'widget-areas-57' ); ?>
