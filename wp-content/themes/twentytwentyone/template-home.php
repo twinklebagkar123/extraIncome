@@ -25,10 +25,10 @@ get_header();
                             <div class="blog-content position-absolute width">
                                 <div class="post-meta">
                                     <div class="blog-cat">
-                                        <a href="" class="category-tag white">Life Style new</a>					
+                                        <a href="" class="category-tag white"><?php the_category(); ?></a>					
                                     </div>
                                     <div class="blog-date white">
-                                        <a href="">1 March 2021</a>
+                                        <a href=""><?php the_date();?></a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
