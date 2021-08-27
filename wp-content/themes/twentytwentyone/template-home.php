@@ -148,7 +148,7 @@ get_header();
                     <div class="sectionAboutUs">
                         <div class="wrapper">
                             <div class="image">
-                                <img src="https://weblozee.com/extraIncome/wp-content/uploads/2021/08/IMG_20210810_113401-removebg-preview-e1630067076983.png" class="img-fluid">
+                                <img src="https://weblozee.com/extraIncome/wp-content/uploads/2021/08/Untitled-design-1.png" class="img-fluid">
                             </div>
                             <div class="content">
                                 
