@@ -32,6 +32,7 @@ $description = get_the_archive_description();
 					<div class="col-12">
 						<div class="section-blogs">
 						<?php while ( have_posts() ) : ?>
+							<?php the_post(); ?>
 							<div class="blog-wrapper">
 								<div class="omega">
 									
