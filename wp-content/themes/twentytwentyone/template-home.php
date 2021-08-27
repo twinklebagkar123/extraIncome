@@ -55,12 +55,13 @@ get_header();
                     <?php
                     // the query
                     $the_query = new WP_Query( array(
-                        'posts_per_page' => 2,
+                        'posts_per_page' => 3,
                     )); 
                     ?>
-
+                    <?php $i=1;?>
                     <?php if ( $the_query->have_posts() ) : ?>
                     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                    <?php if($i>1) {?>
                     <div class="wrapper">
                         <div class="blog-inner position-relative">
                             <a href="<?php the_permalink();?>">
@@ -81,6 +82,7 @@ get_header();
                             </div>
                         </div>
                     </div>
+                    <?php } $i++;?>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
 
