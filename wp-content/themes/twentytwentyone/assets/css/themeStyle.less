@@ -48,7 +48,7 @@ body{
             .wp-block-tag-cloud{
                 a{
                     color: #ffffff;
-                    border: 2px solid #458f2d;
+                    border: 2px solid #e0d859;
                     border-radius: 5px;
                     text-transform: capitalize;
                     font-weight: 500;
@@ -556,10 +556,26 @@ body{
     }
 }
 .recentPostArea{
-    a{
-        color: white;
-        &:hover{
-            color:white;
+    .widget-post-css,.wp-block-latest-posts{
+        list-style: none;
+        li{
+            .wp-block-latest-posts__featured-image{
+                a{
+                    
+                    img{
+                        border-radius: 5px;
+                        box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+                    }
+                }
+    
+            }
+            a{
+                font-size: 15px;
+                display: inline;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
         }
     }
 }

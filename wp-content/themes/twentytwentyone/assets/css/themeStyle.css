@@ -45,7 +45,7 @@ body {
 }
 .footer .tagsArea .widget_tag_cloud .wp-block-tag-cloud a {
   color: #ffffff;
-  border: 2px solid #458f2d;
+  border: 2px solid #e0d859;
   border-radius: 5px;
   text-transform: capitalize;
   font-weight: 500;
@@ -582,9 +582,20 @@ body {
 .site-logo span img {
   width: 80% !important;
 }
-.recentPostArea a {
-  color: white;
+.recentPostArea .widget-post-css,
+.recentPostArea .wp-block-latest-posts {
+  list-style: none;
 }
-.recentPostArea a:hover {
+.recentPostArea .widget-post-css li .wp-block-latest-posts__featured-image a img,
+.recentPostArea .wp-block-latest-posts li .wp-block-latest-posts__featured-image a img {
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.recentPostArea .widget-post-css li a,
+.recentPostArea .wp-block-latest-posts li a {
+  font-size: 15px;
+  display: inline;
   color: white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
