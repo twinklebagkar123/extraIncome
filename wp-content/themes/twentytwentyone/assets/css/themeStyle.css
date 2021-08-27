@@ -582,3 +582,9 @@ body {
 .site-logo span img {
   width: 80% !important;
 }
+.recentPostArea a {
+  color: white;
+}
+.recentPostArea a:hover {
+  color: white;
+}
