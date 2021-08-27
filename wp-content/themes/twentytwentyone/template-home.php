@@ -25,7 +25,8 @@ get_header();
                             <div class="blog-content position-absolute width">
                                 <div class="post-meta">
                                     <div class="blog-cat">
-                                        <a href="" class="category-tag white"><?php the_category(); ?></a>					
+                                        <?php the_category(); ?>
+                                        <!-- <a href="" class="category-tag white"></a>					 -->
                                     </div>
                                     <div class="blog-date white">
                                         <a href=""><?php the_date();?></a>
