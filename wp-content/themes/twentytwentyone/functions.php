@@ -431,14 +431,7 @@ function twenty_twenty_one_scripts() {
 		wp_get_theme()->get( 'Version' ),
 		true
 	);
-	// Register the bootstrap js
-	wp_register_script(
-		'bpptstrap-js',
-		'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js',
-		array(),
-		wp_get_theme()->get( 'Version' ),
-		true
-	);
+	
 
 	// Register the IE11 polyfill loader.
 	wp_register_script(
@@ -457,7 +450,10 @@ function twenty_twenty_one_scripts() {
 			)
 		)
 	);
-
+	// Register the bootstrap js
+	wp_register_script(
+		'bootstrap-js','https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js',array(),wp_get_theme()->get( 'Version' ),true
+	);
 	// Main navigation scripts.
 	if ( has_nav_menu( 'primary' ) ) {
 		wp_enqueue_script(
