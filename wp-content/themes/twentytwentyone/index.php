@@ -42,17 +42,16 @@ get_header(); ?>
                         }else{
                             $classBlog = '';
                         }
-                        echo $classBlog;
                         ?>
                         <div class="blog-wrapper">
-                            <div class="omega">
+                            <div class="omega <?php echo $classBlog; ?>">
                                 
                                     <div class="blogImage">
                                         <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
                                     </div>
                                 
                                 
-                                <div class="blogContent <?php echo $classBlog; ?>">
+                                <div class="blogContent ">
                                     <div class="postmetadata">
                                         <h6 class="blog-date">
                                             <i class="pe-7s-clock"></i><?php echo get_the_date();?>
