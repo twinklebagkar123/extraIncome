@@ -29,7 +29,7 @@ get_header();
                                         <!-- <a href="" class="category-tag white"></a>					 -->
                                     </div>
                                     <div class="blog-date white">
-                                        <a href=""><?php the_date();?></a>
+                                        <a href=""><?php echo get_the_date();?></a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -73,7 +73,7 @@ get_header();
                                     <?php the_category(); ?>					
                                     </div>
                                     <div class="blog-date">
-                                        <a href="">1 March 2021</a>
+                                        <a href=""><?php echo get_the_date();?></a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
