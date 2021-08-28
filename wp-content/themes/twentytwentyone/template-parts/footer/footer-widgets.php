@@ -13,7 +13,7 @@
 </div>
 
 <button type="button" class="collapsible">View Categories</button>
-<div class="content">
+<div class="contentcat">
 <?php
 $categories = get_categories( array(
     'orderby' => 'name',
