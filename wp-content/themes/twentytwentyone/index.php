@@ -63,7 +63,7 @@ get_header(); ?>
 
                             </div>
                         </div>
-                        <?php $i++; endwhile; ?>
+                        <?php $z++; endwhile; ?>
                         <?php wp_reset_postdata(); ?>
 
                         <?php else : ?>
