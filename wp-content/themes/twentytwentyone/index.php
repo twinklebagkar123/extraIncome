@@ -41,7 +41,9 @@ get_header(); ?>
                         
                         }else{
                             $class = "";
-                        }?>
+                        }
+                        echo $i;
+                        ?>
                         <div class="blog-wrapper">
                             <div class="omega">
                                 
