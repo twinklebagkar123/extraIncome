@@ -34,15 +34,15 @@ get_header(); ?>
                         ?>
                         
                         <?php if ( $the_query->have_posts() ) : ?>
-                            <?php $i = 1; $class = ""; ?>
+                            <?php $i = 1; $classBlog = ""; ?>
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <?php if($i == 1){
-                            $class == "green";
+                            $classBlog == "green";
                         
                         }else{
-                            $class = "";
+                            $classBlog = "";
                         }
-                        echo $class;
+                        echo $classBlog;
                         ?>
                         <div class="blog-wrapper">
                             <div class="omega">
@@ -52,7 +52,7 @@ get_header(); ?>
                                     </div>
                                 
                                 
-                                <div class="blogContent <?php echo $class; ?>">
+                                <div class="blogContent <?php echo $classBlog; ?>">
                                     <div class="postmetadata">
                                         <h6 class="blog-date">
                                             <i class="pe-7s-clock"></i><?php echo get_the_date();?>
