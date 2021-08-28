@@ -434,6 +434,11 @@ body {
 .aboutside .blog-wrapper .green .post-title a {
   color: white !important;
 }
+.section2 .blog-wrapper .green p,
+.latestPost .blog-wrapper .green p,
+.aboutside .blog-wrapper .green p {
+  color: white !important;
+}
 .section2 .blog-wrapper .blogContent,
 .latestPost .blog-wrapper .blogContent,
 .aboutside .blog-wrapper .blogContent {

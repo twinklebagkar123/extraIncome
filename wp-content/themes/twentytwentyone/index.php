@@ -23,7 +23,7 @@ get_header(); ?>
                 <div class="col-sm-8">
                 <div class="section-title">
                         <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
-                        <h1 class="innertitle">Latest Posts</h1>
+                        <h1 class="innertitle">Our Blogs</h1>
                     </div>
                     <div class="section-blogs">
                             <?php
