@@ -143,12 +143,12 @@ get_header();
                 <div class="aboutside">
                 <div class="section-title">
                         <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
-                        <h1 class="innertitle">About us</h1>
+                        <h1 class="innertitle">About</h1>
                     </div>
                     <div class="sectionAboutUs">
                         <div class="wrapper">
                             <div class="image">
-                                <img src="https://weblozee.com/extraIncome/wp-content/uploads/2021/08/Untitled-design-1.png" class="img-fluid">
+                                <img src="https://weblozee.com/extraIncome/about/" class="img-fluid">
                             </div>
                             <div class="content">
                                 
