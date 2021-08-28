@@ -37,10 +37,10 @@ get_header(); ?>
                             <?php $z = 1; $classBlog = ""; ?>
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <?php if($z == 1){
-                            $classBlog == "green";
+                            $classBlog = 'green';
                         
                         }else{
-                            $classBlog = "";
+                            $classBlog = '';
                         }
                         echo $classBlog;
                         ?>
