@@ -32,8 +32,9 @@ get_header(); ?>
                             'posts_per_page' => -1,
                         )); 
                         ?>
-                        <?php $i = 1;?>
+                        
                         <?php if ( $the_query->have_posts() ) : ?>
+                            <?php $i = 1;?>
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <?php if($i == 1){
                             $class == "green";
@@ -61,7 +62,7 @@ get_header(); ?>
 
                             </div>
                         </div>
-                        <?php endwhile; ?>
+                        <?php $i++; endwhile; ?>
                         <?php wp_reset_postdata(); ?>
 
                         <?php else : ?>
