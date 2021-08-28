@@ -58,7 +58,7 @@ get_header(); ?>
                                         </h6>
                                     </div>
                                     <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3> 
-                                    <p>When a blog crosses over into personal stories and emotions, it’s now entered into the realm of...</p>  
+                                    <p><?php the_excerpt(); ?></p>  
                                 </div>
 
                             </div>
