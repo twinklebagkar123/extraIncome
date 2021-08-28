@@ -45,7 +45,7 @@ get_header(); ?>
                                 <div class="blogContent">
                                     <div class="postmetadata">
                                         <h6 class="blog-date">
-                                            <i class="pe-7s-clock"></i><?php the_date();?>
+                                            <i class="pe-7s-clock"></i><?php echo get_the_date();?>
                                         </h6>
                                     </div>
                                     <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3> 
