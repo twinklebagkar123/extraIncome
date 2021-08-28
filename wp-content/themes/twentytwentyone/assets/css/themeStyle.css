@@ -419,6 +419,21 @@ body {
     margin: 0px;
   }
 }
+.section2 .blog-wrapper .green,
+.latestPost .blog-wrapper .green,
+.aboutside .blog-wrapper .green {
+  background: linear-gradient(45deg, #458f2d, #91b44d);
+}
+.section2 .blog-wrapper .green .postmetadata .blog-date,
+.latestPost .blog-wrapper .green .postmetadata .blog-date,
+.aboutside .blog-wrapper .green .postmetadata .blog-date {
+  color: white !important;
+}
+.section2 .blog-wrapper .green .post-title a,
+.latestPost .blog-wrapper .green .post-title a,
+.aboutside .blog-wrapper .green .post-title a {
+  color: white !important;
+}
 .section2 .blog-wrapper .blogContent,
 .latestPost .blog-wrapper .blogContent,
 .aboutside .blog-wrapper .blogContent {
