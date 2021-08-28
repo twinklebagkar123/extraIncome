@@ -43,11 +43,11 @@
 				<?php endif; ?>
 			</div>
 			 <div class="col-sm-4"> 
-			<?php if ( is_active_sidebar( 'widget-areas-59' ) ) : ?>
+			<!-- <?php// if ( is_active_sidebar( 'widget-areas-59' ) ) : ?>
 				 <div id="widget-areas-59" class="widget-areas tagsArea"> 
-				<?php dynamic_sidebar( 'widget-areas-59' ); ?>
+				<?php //dynamic_sidebar( 'widget-areas-59' ); ?>
 				 </div> 
-			<?php endif; ?>
+			<?php endif; ?> -->
 			</div> 
 			<!-- <div class="col-sm-3 col-xs-hidden">
 			<?php //if ( is_active_sidebar( 'widget-areas-58' ) ) : ?>
