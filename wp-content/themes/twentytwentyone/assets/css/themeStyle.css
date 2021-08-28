@@ -339,6 +339,7 @@ body {
 .section2 .sectionAboutUs .wrapper .image img,
 .latestPost .sectionAboutUs .wrapper .image img,
 .aboutside .sectionAboutUs .wrapper .image img {
+  border: 1px solid #458f2d;
   border-radius: 50% 50% 50% 50%;
 }
 .section2 .sectionAboutUs .wrapper .content,
