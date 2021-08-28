@@ -632,8 +632,8 @@ body {
   text-decoration: none;
 }
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: white !important;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;

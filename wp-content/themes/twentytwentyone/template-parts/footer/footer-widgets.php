@@ -12,7 +12,7 @@
                         <h1 class="innertitle">Categories</h1>
 </div>
 
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible">View Categories</button>
 <div class="content">
 <?php
 $categories = get_categories( array(
