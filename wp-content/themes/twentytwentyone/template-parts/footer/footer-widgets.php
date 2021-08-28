@@ -16,7 +16,18 @@
 <p>A Collapsible:</p>
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
-  <?php the_content(); ?>
+<?php
+$categories = get_categories( array(
+    'orderby' => 'name',
+    'order'   => 'ASC'
+) );
+?>
+<ul>
+foreach( $categories as $category ) {
+ echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
+} 
+?>
+</ul>
 </div>
 <?php
 
