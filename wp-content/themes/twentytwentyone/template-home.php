@@ -157,7 +157,7 @@ get_header();
 I've spent more than 15 years in the stock trading and financial markets working day and night. I decided to take a break in 2017 to spend time with my growing son.
 After a few months of being at home with him, I started feeling restless and wanted to get back into the workforce.
                                     </p>
-                                    <a href="https://weblozee.com/extraIncome/about/>READ MORE</a>
+                                    <a href="https://weblozee.com/extraIncome/about/">READ MORE</a>
                             </div>
                         </div>
 
