@@ -22,7 +22,7 @@ $categories = get_categories( array(
     'order'   => 'ASC'
 ) );
 ?>
-<ul>
+<ul class="wp-block-categories-list wp-block-categories">
 <?php
 foreach( $categories as $category ) {
  echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
