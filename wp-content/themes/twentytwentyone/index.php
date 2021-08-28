@@ -19,6 +19,51 @@ get_header(); ?>
 <section class="section2">
         <div class="container">
             <div class="row">
+                <div class="col-sm-12">
+                    <div class="mainPost">
+                        <?php 
+                            // the query
+                            $the_query = new WP_Query( array(
+                                'posts_per_page' => 1,
+                            )); 
+                            ?>
+
+                            <?php if ( $the_query->have_posts() ) : ?>
+                            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                
+                                    <div class="blog-inner position-relative">
+                                        
+                                        <a href="<?php the_permalink();?>">
+                                            <img class="img-fluid blog-img" src="<? the_post_thumbnail_url(); ?>">
+                                        </a>
+                                        <div class="blog-content position-absolute width">
+                                            <div class="post-meta">
+                                                <div class="blog-cat">
+                                                    <?php the_category(); ?>
+                                                    <!-- <a href="" class="category-tag white"></a>					 -->
+                                                </div>
+                                                <div class="blog-date white">
+                                                    <a href=""><?php echo get_the_date();?></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <h4 class="post-title white"><a class="white title" href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
+                                            
+                                        </div>
+                                    </div>
+                                
+
+                            <?php endwhile; ?>
+                            <?php wp_reset_postdata(); ?>
+
+                            <?php else : ?>
+                            <p><?php __('No News'); ?></p>
+                            <?php endif; ?>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
                 <div class="col-sm-8">
                 <div class="section-title">
                         <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
