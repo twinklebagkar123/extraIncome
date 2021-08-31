@@ -366,6 +366,15 @@ function twenty_twenty_one_widgets_init() {
 	);
 }
 add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
+function wpb_custom_new_menu() {
+	register_nav_menus(
+	  array(
+		'my-custom-menu' => __( 'My Custom Menu' ),
+		'extra-menu' => __( 'Extra Menu' )
+	  )
+	);
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
