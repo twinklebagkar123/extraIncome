@@ -39,11 +39,21 @@ body {
   vertical-align: middle;
   fill: white !important;
 }
+@media screen and (max-width: 768px) {
+  .footer-navigation-wrapper {
+    justify-content: center !important;
+  }
+}
 .footer {
   background: linear-gradient(45deg, #458f2d, #91b44d);
 }
 .footer .site-footer {
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .footer .site-footer {
+    text-align: center;
+  }
 }
 .footer .custom-logo-link img {
   width: 30% !important;
@@ -94,6 +104,11 @@ body {
 }
 .footer .area1Class ul li a:hover {
   color: #458f2d;
+}
+@media screen and (max-width: 768px) {
+  .footer .area1Class {
+    text-align: center;
+  }
 }
 .footer .footer-navigation {
   margin-top: 0px;
@@ -555,6 +570,11 @@ body {
 }
 .powered-by em {
   color: white;
+}
+@media screen and (max-width: 768px) {
+  .powered-by {
+    text-align: center;
+  }
 }
 .sectionSingle .title h1 {
   word-wrap: break-word;
