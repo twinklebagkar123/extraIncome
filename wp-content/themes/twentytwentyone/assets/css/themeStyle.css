@@ -37,7 +37,12 @@ body {
 }
 .footer {
   background: linear-gradient(45deg, #458f2d, #91b44d);
-  padding-top: 60px;
+}
+.footer .site-footerter {
+  padding-bottom: 0px;
+}
+.footer .custom-logo-link img {
+  width: 30% !important;
 }
 .footer hr {
   color: white;
@@ -60,18 +65,24 @@ body {
   text-decoration: none;
 }
 .footer .area1Class {
-  margin-bottom: 100px;
+  text-align: right;
 }
 .footer .area1Class h2 {
   color: white;
   margin-bottom: 20px;
 }
+.footer .area1Class .widget_nav_menu {
+  margin-bottom: 0;
+}
 .footer .area1Class ul {
   list-style: none;
   padding: 0px;
+  display: block;
 }
 .footer .area1Class ul li {
   line-height: 3;
+  display: inline-block;
+  margin-left: 10px;
 }
 .footer .area1Class ul li a {
   color: white;
