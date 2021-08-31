@@ -31,6 +31,9 @@ body {
     padding: 40px;
   }
 }
+.footer-navigation-wrapper {
+  justify-content: flex-end !important;
+}
 .footer-navigation-wrapper li .svg-icon {
   vertical-align: middle;
   fill: white !important;
@@ -38,7 +41,7 @@ body {
 .footer {
   background: linear-gradient(45deg, #458f2d, #91b44d);
 }
-.footer .site-footerter {
+.footer .site-footer {
   padding-bottom: 0px;
 }
 .footer .custom-logo-link img {
