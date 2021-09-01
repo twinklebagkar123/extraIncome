@@ -21,10 +21,10 @@ get_header(); ?>
             
             <div class="row">
                 <div class="col-sm-8">
-                <div class="section-title">
+                <!-- <div class="section-title">
                         <span class="wn-deep-title-shape elementor-repeater-item-848bb03 after"></span>
                         <h1 class="innertitle">Our Blogs</h1>
-                    </div>
+                    </div> -->
                     <div class="section-blogs">
                             <?php
                         // the query
@@ -45,10 +45,12 @@ get_header(); ?>
                         ?>
                         <div class="blog-wrapper">
                             <div class="omega <?php echo $classBlog; ?>">
-                                
+                                <a href="<?php the_permalink(); ?>">
                                     <div class="blogImage">
                                         <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
                                     </div>
+                                </a>
+                                    
                                 
                                 
                                 <div class="blogContent ">
