@@ -17,7 +17,7 @@ while ( have_posts() ) :
 ?>
 	<div class="container sectionSingle">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-8">
 				<?php get_template_part( 'template-parts/content/content-single' );?>
 			</div>
 			<div class="col-sm-12">
