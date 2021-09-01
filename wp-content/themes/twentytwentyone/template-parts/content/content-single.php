@@ -16,9 +16,9 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		
 	</div>
+	<?php twenty_twenty_one_entry_meta_footer(); ?>
 	<div class="thumbnail">
 		<?php twenty_twenty_one_post_thumbnail(); ?>
-		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</div>
 	<div class="content">
 		<?php the_content(); ?>
