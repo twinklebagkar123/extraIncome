@@ -113,10 +113,12 @@ get_header();
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <div class="blog-wrapper">
                             <div class="omega">
-                                
+                                <a href="<?php the_permalink();?>">
                                     <div class="blogImage">
                                         <img class="img-fluid blog-img s-blog-img" src="<? the_post_thumbnail_url(); ?>">
                                     </div>
+                                </a>
+                                   
                                 
                                 
                                 <div class="blogContent">
