@@ -205,7 +205,7 @@ body {
 }
 .blog-inner .s-blog-img {
   height: 273px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .blog-inner .s-content {
   max-width: 278px;
