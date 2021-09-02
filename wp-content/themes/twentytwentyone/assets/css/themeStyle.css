@@ -670,8 +670,9 @@ body {
   line-height: 1.3;
   letter-spacing: -1px;
 }
-.site-logo a img {
-  width: 50% !important;
+.site-logo a img,
+.site-logo span img {
+  width: 80% !important;
 }
 .recentPostArea .widget-post-css,
 .recentPostArea .wp-block-latest-posts {
