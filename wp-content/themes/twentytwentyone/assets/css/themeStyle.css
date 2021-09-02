@@ -722,7 +722,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  padding: 20px;
+  padding: 8px 15px 8px 15px;
   border-radius: 50%;
   background-color: #114f0e;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.11);
@@ -730,5 +730,4 @@ body {
 }
 #btn-back-to-top:after {
   content: "^";
-  padding: 8px 15px 8px 15px;
 }
