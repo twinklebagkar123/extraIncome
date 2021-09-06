@@ -581,7 +581,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .sectionSingle p {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .sectionSingle .title h1 {
